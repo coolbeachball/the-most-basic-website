@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: #163172;
+    color: #F6F6F6;
+    padding: 1em;
+}
+
+nav {
+    background-color: #1E56A0;
+    padding: 0.3em;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D6E4F0;
+    margin: 1em;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#div {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    background-color: #D6E4F0;
+    color: #163172;
+    padding: 1em;
+    width: 20%;
+    height: 40em;
+    float: left;
+}
+
+article {
+    background-color: #F6F6F6;
+    color: #1E56A0;
+    padding: 1em;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #163172;
+}
+
+section {
+    background-color: #1E56A0;
+    color: #D6E4F0;
+    float: left;
+    padding: 1em;
+}
+
+iframe {
+    border: 0.1em solid #091531;
+    max-width: 300px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone {
+    background-color: #F6F6F6;
+    max-width: 300px;
+    width: 100%;
+    height: 520px;
+    padding: 1em 0.7em 7em 0.7em;
+    border-radius: 2em;
+    margin: auto;
+    box-shadow: 5px 5px 20px #091531;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-button {
+    width: 50px;
+    height: 50px;
+    background-color: #D6E4F0;
+    margin: 0.5em auto 1em auto;
+    border-radius: 50%;
+    border-color: #091531;
+}
+
+#home-button a {
+    font-size: 45px;
+    color: transparent;
+    text-decoration: none;
+}
+.camera {
+    width: 0.5em;
+    height: 0.5em;
+    background-color: #091531;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#notch {
+    display: flex;
+    align-items: center;
+    margin: 1em auto 1em auto;
+}
+
+#speaker {
+    width: 80px;
+    height: 0.5em;
+    background-color: #163172;
+    border-radius: 1em;
+    margin-right: auto;
+}
+
+.flash {
+    width: 1em;
+    height: 1em;
+    background-color: #091531;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0.5em;
+}
+
+#phone-room {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+footer {
+    background-color: #163172;
+    color: #F6F6F6;
+    padding: 1em;
+}
+
+footer a {
+    color: #D6E4F0;
+}
+
+kbd {
+    color: #84b3f0;
+}
+
+code {
+    background-color: #1E56A0;
+    padding: 0.3em;
+}
